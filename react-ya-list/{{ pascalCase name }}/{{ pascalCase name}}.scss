@@ -1,0 +1,22 @@
+.{{ kebabCase name }} {
+    max-width: 800px;
+
+    &__form {
+        width: 100%;
+    }
+
+    &__input {
+        max-width: 400px;
+    }
+
+    &__table-wrapper {
+        width: 100%;
+    }
+
+    &__table {
+        width: 100%;
+        .yc-table__table  {
+            width: 100%;
+        }
+    }
+}
