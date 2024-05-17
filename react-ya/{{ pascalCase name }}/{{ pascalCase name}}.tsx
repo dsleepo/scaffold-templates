@@ -27,7 +27,7 @@ type {{ pascalCase name }}Props = {
     show: boolean;
 };
 
-export const {{ pascalCase name }}Name: FC<{{ pascalCase name }}Props> = ({ show }) => {
+export const {{ pascalCase name }}: FC<{{ pascalCase name }}Props> = ({ show }) => {
     const [ready, setReady] = useState(false);
     useEffect(() => {}, []);
 

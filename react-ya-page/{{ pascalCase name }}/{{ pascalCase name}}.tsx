@@ -35,7 +35,7 @@ const b = cn('{{ kebabCase name }}');
 
 type {{ pascalCase name }}Props = {};
 
-export const {{ pascalCase name }}Name: FC<{{ pascalCase name }}Props> = () => {
+export const {{ pascalCase name }}: FC<{{ pascalCase name }}Props> = () => {
     const {scopeId, id} =
         useTypedParams<typeof routes.{{ camelCase name }}>();
 
